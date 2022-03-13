@@ -1,0 +1,76 @@
+﻿.login {
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin-left: 450px;
+    margin-top:90px;
+}
+.login .form {
+    width: 50%;
+}
+h2 {
+    color: #607d8b;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.input-form {
+    margin-bottom: 5px;
+}
+
+span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    letter-spacing: 1px;
+}
+ #username, #password,#btn {
+    width: 100%;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid #607d8b;
+}
+#btn {
+    margin-left: 70px;
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    width:50%;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+}
+#btn :hover {
+    background: #3e196e;
+}
+p {
+    margin-top: 20px;
+    margin-left:40px;
+    color: #607d8b;
+}
+
+a {
+    color: #ff4584;
+}
+#RequiredFieldValidator1, #RequiredFieldValidator2{
+    margin-top:10px;
+}
+
+html {
+    font-family: "Time New Romans", sans-serif;
+    background-color: #EEE8AA;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
